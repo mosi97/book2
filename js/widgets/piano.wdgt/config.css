@@ -1,0 +1,25 @@
+#music-score h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 34px;
+  color: black; }
+
+@media print {
+#music-score h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 34px;
+  color: black; }
+}
+html.bw-print-mode #music-score h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 34px;
+  color: black; }
+

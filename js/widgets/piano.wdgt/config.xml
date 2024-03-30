@@ -1,0 +1,26 @@
+<Piano>
+<shortcode>WFA6BWX</shortcode>
+<about>{}</about>
+<widget_language>en</widget_language>
+<resource_substitutions>[["$CREATE_RESOURCES","https://www.bookwidgets.com/create/api/resources"],[":","https://www.bookwidgets.com/a/generator-resources"],["$APPLICATION/Resources","https://www.bookwidgets.com/create/embedded-static-resources"],["$PUBLISHED_RESOURCES","https://storage.googleapis.com/widget.bookwidgets.com"]]</resource_substitutions>
+<background_picture autosize="true"/>
+<background_resize_policy value="No resize">No resize</background_resize_policy>
+<music_score_position/>
+<startWithOctave searchable="true">3</startWithOctave>
+<title searchable="true"/>
+<copyright searchable="true"/>
+<noteDataFile value="Piano">Piano</noteDataFile>
+<background_music/>
+<score/>
+<DesignConstants widget_backgroundimage="" widget_font="Verdana" template="Light Background" widget_color="#3498DB">
+<constant>
+<name>titlefont</name>
+<value>Helvetica,bold,34</value>
+</constant>
+<constant>
+<name>titlecolor</name>
+<value>#000000</value>
+</constant>
+</DesignConstants>
+<cover autosize="true"/>
+</Piano>

@@ -1,0 +1,487 @@
+<JigsawPuzzle>
+<shortcode>4FAZ44X</shortcode>
+<label>The First 24 Presidents of the U.S.A.</label>
+<about>{}</about>
+<resource_substitutions>[["$CREATE_RESOURCES","https://www.bookwidgets.com/create/api/resources"],[":","https://www.bookwidgets.com/a/generator-resources"],["$APPLICATION/Resources","https://www.bookwidgets.com/create/embedded-static-resources"],["$PUBLISHED_RESOURCES","https://storage.googleapis.com/widget.bookwidgets.com"]]</resource_substitutions>
+<title searchable="true">The First 24 Presidents of the U.S.A.</title>
+<imagefile width="1080" height="960" orientation="1" autosize="true">https://www.bookwidgets.com/create/api/resources/50/5078876051472384/0d/0d2982fb-02d3-4852-a2c7-09f0e7705263.jpg?filename=R.jpg</imagefile>
+<piecesX searchable="true">6</piecesX>
+<piecesY searchable="true">4</piecesY>
+<rewardWord searchable="true">Congratulations!</rewardWord>
+<showHint>false</showHint>
+<instructions_title searchable="true">Instructions</instructions_title>
+<instructions richData="{&quot;blocks&quot;:[{&quot;text&quot;:&quot;&quot;,&quot;type&quot;:&quot;unstyled&quot;,&quot;dataRanges&quot;:[]}]}">
+<text searchable="true">&lt;div>&lt;p/>&lt;/div></text>
+<images/>
+</instructions>
+<save_answers>true</save_answers>
+<uuid2>{746c7d40-cd0d-11ee-8a86-a3170db133e1}</uuid2>
+<origbase_version>1</origbase_version>
+<LocalizationMap>
+<localization>
+<phrase>The pieces will be shuffled, this can not be undone. Are you sure?</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Shuffle the jigsaw pieces and start over?</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Yes, clear</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>No, keep</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Authentication error.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Cancel</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Could not connect to server, check your internet connection.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Email</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Forgot password?</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Not logged in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>OK</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Offline</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Online</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Password</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Please sign in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Received error trying to sign in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>School code</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Server error when signing in.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in failed</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in to save your answers online</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in using</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in using email and password</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign in using school account</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign out</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Sign up here</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Username</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Waiting</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Waiting for account sign in to complete...</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Widget configuration error: school doesn't exist</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Wrong username or password, please try again.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You need to be signed in to use this widget.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You're currently offline and logged in as user:</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You're currently online and logged in as user:</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>You're offline</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Retrying...</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Reload</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Your progress on this activity will be shared with your teacher.</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Your answers couldn't be loaded because the question changed</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Some of your answers couldn't be loaded because the question changed</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>Audio player</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>play</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>pause</phrase>
+<translation/>
+</localization>
+<localization>
+<phrase>stop</phrase>
+<translation/>
+</localization>
+</LocalizationMap>
+<allow_browser_translation>true</allow_browser_translation>
+<DesignConstants widget_backgroundimage="https://storage.googleapis.com/widget.bookwidgets.com/180803/70ffc563d78d2c9c.03a4ec25d541a66cbb1f8631a6c87fc7.jpg?filename=old-paper.jpg,auto" widget_font="Goudy Old Style" template="Light Background" widget_color="#653f1a">
+<constant>
+<name>backgroundcolor</name>
+<value>#ffffff, #ffffff, 255, 255</value>
+<kind>BackgroundGradient</kind>
+</constant>
+<constant>
+<name>backgroundimage</name>
+<value>https://storage.googleapis.com/widget.bookwidgets.com/180803/70ffc563d78d2c9c.03a4ec25d541a66cbb1f8631a6c87fc7.jpg?filename=old-paper.jpg,auto</value>
+<kind>BackgroundImage</kind>
+</constant>
+<constant>
+<name>titlefont</name>
+<value>Goudy Old Style, font-stack, 32</value>
+<kind>TextFont</kind>
+</constant>
+<constant>
+<name>titlecolor</name>
+<value>#653f1a</value>
+<kind>TextColor</kind>
+</constant>
+<constant>
+<name>titlebackground</name>
+<value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
+</constant>
+<constant>
+<name>titleborderbottom</name>
+<value>0px, solid, #bbbbbb, 255</value>
+<kind>BorderBottom</kind>
+</constant>
+<constant>
+<name>titleborderradius</name>
+<value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
+</constant>
+<constant>
+<name>titleshadow</name>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
+</constant>
+<constant>
+<name>rewardfont</name>
+<value>Goudy Old Style, font-stack, bold, 86</value>
+<kind>TextFont</kind>
+</constant>
+<constant>
+<name>rewardcolor</name>
+<value>#7a002a</value>
+<kind>TextColor</kind>
+</constant>
+<constant>
+<name>rewardbackground</name>
+<value>#ffffff, #ffffff, 104, 104</value>
+<kind>BackgroundGradient</kind>
+</constant>
+<constant>
+<name>rewardborderleft</name>
+<value>0px, none, #808080, 255</value>
+<kind>BorderLeft</kind>
+</constant>
+<constant>
+<name>rewardborderright</name>
+<value>0px, none, #808080, 255</value>
+<kind>BorderRight</kind>
+</constant>
+<constant>
+<name>rewardbordertop</name>
+<value>0px, none, #808080, 255</value>
+<kind>BorderTop</kind>
+</constant>
+<constant>
+<name>rewardborderbottom</name>
+<value>0px, none, #808080, 255</value>
+<kind>BorderBottom</kind>
+</constant>
+<constant>
+<name>rewardborderradius</name>
+<value>20px, 20px, 20px, 20px</value>
+<kind>BorderRadius</kind>
+</constant>
+<constant>
+<name>rewardshadow</name>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
+</constant>
+<constant>
+<name>dialogborderradius</name>
+<value>24px, 24px, 24px, 24px</value>
+<kind>BorderRadius</kind>
+</constant>
+<constant>
+<name>dialogshadow</name>
+<value>0px, 2px, 4px, 1px, #010539, 48</value>
+<kind>BoxShadow</kind>
+</constant>
+<constant>
+<name>dialogbackground</name>
+<value>#653f1a, #653f1a, 255, 255</value>
+<kind>BackgroundGradient</kind>
+</constant>
+<constant>
+<name>dialogborderleft</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
+</constant>
+<constant>
+<name>dialogborderright</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
+</constant>
+<constant>
+<name>dialogbordertop</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
+</constant>
+<constant>
+<name>dialogborderbottom</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
+</constant>
+<constant>
+<name>dialogcontentfont</name>
+<value>Goudy Old Style, font-stack, 14</value>
+<kind>TextFont</kind>
+</constant>
+<constant>
+<name>dialogcontentcolor</name>
+<value>#ffffff</value>
+<kind>TextColor</kind>
+</constant>
+<constant>
+<name>dialogtitlefont</name>
+<value>Goudy Old Style, font-stack, bold, 18</value>
+<kind>TextFont</kind>
+</constant>
+<constant>
+<name>dialogtitleborderradius</name>
+<value>0px, 0px, 0px, 0px</value>
+<kind>BorderRadius</kind>
+</constant>
+<constant>
+<name>dialogtitleshadow</name>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
+</constant>
+<constant>
+<name>dialogtitlecolor</name>
+<value>#ffffff</value>
+<kind>TextColor</kind>
+</constant>
+<constant>
+<name>dialogtitlebackground</name>
+<value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
+</constant>
+<constant>
+<name>dialogtitleborderleft</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderLeft</kind>
+</constant>
+<constant>
+<name>dialogtitleborderright</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderRight</kind>
+</constant>
+<constant>
+<name>dialogtitlebordertop</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderTop</kind>
+</constant>
+<constant>
+<name>dialogtitleborderbottom</name>
+<value>0px, solid, #000000, 255</value>
+<kind>BorderBottom</kind>
+</constant>
+<constant>
+<name>dialogbuttonfont</name>
+<value>Goudy Old Style, font-stack, 16</value>
+<kind>TextFont</kind>
+</constant>
+<constant>
+<name>dialogbuttonborderradius</name>
+<value>24px, 24px, 24px, 24px</value>
+<kind>BorderRadius</kind>
+</constant>
+<constant>
+<name>dialogbuttonshadow</name>
+<value>0px, 0px, 0px, 0px, #888, 255</value>
+<kind>BoxShadow</kind>
+</constant>
+<constant>
+<name>dialogbuttoncolor</name>
+<value>#ffffff</value>
+<kind>TextColor</kind>
+</constant>
+<constant>
+<name>dialogbuttonbackground</name>
+<value>#ffffff, #ffffff, 0, 0</value>
+<kind>BackgroundGradient</kind>
+</constant>
+<constant>
+<name>dialogbuttonborderleft</name>
+<value>1px, solid, #ffffff, 255</value>
+<kind>BorderLeft</kind>
+</constant>
+<constant>
+<name>dialogbuttonborderright</name>
+<value>1px, solid, #ffffff, 255</value>
+<kind>BorderRight</kind>
+</constant>
+<constant>
+<name>dialogbuttonbordertop</name>
+<value>1px, solid, #ffffff, 255</value>
+<kind>BorderTop</kind>
+</constant>
+<constant>
+<name>dialogbuttonborderbottom</name>
+<value>1px, solid, #ffffff, 255</value>
+<kind>BorderBottom</kind>
+</constant>
+<constant>
+<name>dialogbuttonpadding</name>
+<value>8px, 12px, 8px, 12px</value>
+<kind>Padding</kind>
+</constant>
+<constant>
+<name>backgroundbackground</name>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>backgroundoutline</name>
+<value>2px, dotted, #653f1a, 127</value>
+</constant>
+<constant>
+<name>sspopuptoolbarbackground</name>
+<value>#ffffff, #ffffff, 255, 255</value>
+</constant>
+<constant>
+<name>sspopuptoolbarcolor</name>
+<value>#010539</value>
+</constant>
+<constant>
+<name>sspopuptoolbarshadow</name>
+<value>-1px, 1px, 1px, 0px, #010539, 32</value>
+</constant>
+<constant>
+<name>dialogwarningbackground</name>
+<value>#ffa500, #ffa500, 255, 255</value>
+</constant>
+<constant>
+<name>dialogwarningcolor</name>
+<value>#950a0a</value>
+</constant>
+<constant>
+<name>dialoglinkfont</name>
+<value>Goudy Old Style,font-stack,14</value>
+</constant>
+<constant>
+<name>dialoglinkcolor</name>
+<value>#0000ff</value>
+</constant>
+<constant>
+<name>dialogbuttonoutline</name>
+<value>2px, dotted, #ffffff, 127</value>
+</constant>
+<constant>
+<name>audio-playerbackground</name>
+<value>#65523f, #65523f, 255, 255</value>
+</constant>
+<constant>
+<name>audio-playerborderleft</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>audio-playerborderright</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>audio-playerbordertop</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+<constant>
+<name>audio-playerborderbottom</name>
+<value>0px, solid, #000000, 255</value>
+</constant>
+</DesignConstants>
+<cover width="0" height="0" autosize="true">https://storage.googleapis.com/widget.bookwidgets.com/180727/Default.f8b2a970ac629e7d96d947beac728a28.png?filename=washington.png</cover>
+</JigsawPuzzle>

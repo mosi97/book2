@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+
+<head>
+    <meta name="dtb:uid" content="urn:uuid:e546af69-539f-0e58-b2f4-e8c84070ce88"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+</head>
+
+ <docTitle>
+      <text>Table of Contents</text>
+ </docTitle>
+    
+<navMap>
+    <navPoint id="ncx0" playOrder="1"><navLabel><text>محتويات الكتاب</text></navLabel><content src="sovb58.xhtml"></content></navPoint><navPoint id="ncx1" playOrder="2"><navLabel><text>الفصل الاول</text></navLabel><content src="seocqt.xhtml"></content></navPoint><navPoint id="ncx2" playOrder="3"><navLabel><text>الاسئلة</text></navLabel><content src="sok6mi.xhtml"></content></navPoint><navPoint id="ncx3" playOrder="4"><navLabel><text>تنزيل البرنامج</text></navLabel><content src="sdbzh3.xhtml"></content></navPoint><navPoint id="ncx4" playOrder="5"><navLabel><text>مقدمة الى واجهة البرنامج واضافة اسئلة والمكونات التفاعلية</text></navLabel><content src="sm5v8p.xhtml"></content></navPoint><navPoint id="ncx5" playOrder="6"><navLabel><text>طرق التصدير المختلفة واضافة صناديق المحتوى </text></navLabel><content src="sl3w0e.xhtml"></content></navPoint><navPoint id="ncx6" playOrder="7"><navLabel><text>اضافة روابط وازرار والفيديوهات ومعرض صور</text></navLabel><content src="ss25u1.xhtml"></content></navPoint><navPoint id="ncx7" playOrder="8"><navLabel><text>اضافة زر</text></navLabel><content src="sxj9kj.xhtml"></content></navPoint><navPoint id="ncx8" playOrder="9"><navLabel><text>ازرار لواجهة البرنامج</text></navLabel><content src="s9nkdj.xhtml"></content></navPoint><navPoint id="ncx9" playOrder="10"><navLabel><text>انشاء كتب سحابية ومكتبة اليكترونية</text></navLabel><content src="s9r0ml.xhtml"></content></navPoint>
+</navMap>
+    
+</ncx>

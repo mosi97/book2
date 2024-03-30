@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="css/jquery.dialogsheet.css" />
+    <link rel="stylesheet" href="css/bookwidgets.css" />
+    <link rel="stylesheet" href="css/piano.css" />
+    <link rel="stylesheet" href="js/Piano.css" />
+
+    <script type="text/javascript" src="js/jquery-1.8.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dialogsheet.js"></script>
+    <script type="text/javascript" src="js/hammer.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hammer.min.js"></script>
+    <script type="text/javascript" src="js/raphael.min.js"></script>
+    <script type="text/javascript" src="js/vexflow.min.js"></script>
+
+    <script type="text/javascript" src="js/vendor.js"></script>
+    <script type="text/javascript" src="js/Piano.js"></script>
+</head>
+<body>
+    <div id="container" class="bw-row-container">
+      <div id="progressbar">Loading: <span id="pct">0</span>%</div>
+      <div id="score-container" class="bw-row-resizing fully-transparent">
+        <div id="score-wrapper">
+          <div id="music-score"></div>
+          <div id="background-music" class="hidden"></div>
+        </div>
+      </div>
+      <div id="piano-container" class="bw-row-fixed fully-transparent">
+        <div id="p-wrapper">
+          <ul id="piano">
+            <li><div class="white key" data-notename="c" data-octave="0" data-scorename="c/4"></div></li>
+            <li><div class="white key" data-notename="d" data-octave="0" data-scorename="d/4"></div><span class="black key" data-notename="cs" data-octave="0" data-scorename="c#/4"></span></li>
+            <li><div class="white key" data-notename="e" data-octave="0" data-scorename="e/4"></div><span class="black key" data-notename="ds" data-octave="0" data-scorename="d#/4"></span></li>
+            <li><div class="white key" data-notename="f" data-octave="0" data-scorename="f/4"></div></li>
+            <li><div class="white key" data-notename="g" data-octave="0" data-scorename="g/4"></div><span class="black key" data-notename="fs" data-octave="0" data-scorename="f#/4"></span></li>
+            <li><div class="white key" data-notename="a" data-octave="0" data-scorename="a/4"></div><span class="black key" data-notename="gs" data-octave="0" data-scorename="g#/4"></span></li>
+            <li><div class="white key" data-notename="b" data-octave="0" data-scorename="b/4"></div><span class="black key" data-notename="as" data-octave="0" data-scorename="a#/4"></span></li>
+
+            <li><div class="white key" data-notename="c" data-octave="1" data-scorename="c/5"></div></li>
+            <li><div class="white key" data-notename="d" data-octave="1" data-scorename="d/5"></div><span class="black key" data-notename="cs" data-octave="1" data-scorename="c#/5"></span></li>
+            <li><div class="white key" data-notename="e" data-octave="1" data-scorename="e/5"></div><span class="black key" data-notename="ds" data-octave="1" data-scorename="d#/5"></span></li>
+            <li><div class="white key" data-notename="f" data-octave="1" data-scorename="f/5"></div></li>
+            <li><div class="white key" data-notename="g" data-octave="1" data-scorename="g/5"></div><span class="black key" data-notename="fs" data-octave="1" data-scorename="f#/5"></span></li>
+            <li><div class="white key" data-notename="a" data-octave="1" data-scorename="a/5"></div><span class="black key" data-notename="gs" data-octave="1" data-scorename="g#/5"></span></li>
+            <li><div class="white key" data-notename="b" data-octave="1" data-scorename="b/5"></div><span class="black key" data-notename="as" data-octave="1" data-scorename="a#/5"></span></li>
+
+            <li><div class="white key" data-notename="c" data-octave="2" data-scorename="c/6"></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

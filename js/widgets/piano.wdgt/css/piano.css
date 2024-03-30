@@ -1,0 +1,302 @@
+/**
+ * Piano keyboard CSS inspired by http://hompimpaalaihumgambreng.blogspot.com/
+ */
+
+
+* {
+  margin:0px;
+  padding:0px;
+  list-style:none;
+}
+
+
+:focus {
+  outline:none !important;
+}
+
+body {
+  background: black;
+}
+
+#score-container { 
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#score-wrapper { 
+  -ms-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  width: 100%;
+  max-height: 520px;
+}
+
+#music-score {
+  background: white;
+  position: absolute;
+}
+
+#music-score canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.fadeIn {
+    -webkit-animation:fadeIn 1s;
+    -moz-animation:fadeIn 1s;
+    animation:fadeIn 1s;
+}
+
+
+/* Piano Wrapper */
+#piano-container {
+  z-index: 1;
+  background:#000;
+  background:-webkit-linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
+  background:-moz-linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
+  background:-ms-linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
+  background:-o-linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
+  background:linear-gradient(-60deg,#000,#333,#000,#666,#333 70%);
+  -webkit-box-shadow:0 2px 0px #666,0 3px 0px #555,0 4px 0px #444,0 6px 6px #000,inset 0 -1px 1px rgba(255,255,255,0.5),inset 0 -4px 5px #000;
+  -moz-box-shadow:0 2px 0px #666,0 3px 0px #555,0 4px 0px #444,0 6px 6px #000,inset 0 -1px 1px rgba(255,255,255,0.5),inset 0 -4px 5px #000;
+  box-shadow:0 2px 0px #666,0 3px 0px #555,0 4px 0px #444,0 6px 6px #000,inset 0 -1px 1px rgba(255,255,255,0.5),inset 0 -4px 5px #000;
+  border:2px solid #333;
+  -webkit-border-radius:0 0 5px 5px;
+  -moz-border-radius:0 0 5px 5px;
+  border-radius:0 0 5px 5px;
+  text-align: center;
+  max-height: 40%;
+  overflow: hidden;
+}
+
+#p-wrapper { 
+  display: inline-block;
+}
+/* Tuts */
+ul#piano {
+  display:block;
+  width:100%;
+}
+
+ul#piano li {
+  list-style:none;
+  float:left;
+  display:inline;
+  background:#aaa;
+  width:66px;
+  position:relative;
+}
+
+ul#piano li div.white.key {
+  display:block;
+  height:220px;
+  background:#fff;
+  background:-webkit-linear-gradient(-30deg,#f5f5f5,#fff);
+  background:-moz-linear-gradient(-30deg,#f5f5f5,#fff);
+  background:-ms-linear-gradient(-30deg,#f5f5f5,#fff);
+  background:-o-linear-gradient(-30deg,#f5f5f5,#fff);
+  background:linear-gradient(-30deg,#f5f5f5,#fff);
+  border:1px solid #ccc;
+  -webkit-box-shadow:inset 0 1px 0px #fff,inset 0 -1px 0px #fff,inset 1px 0px 0px #fff,inset -1px 0px 0px #fff,0 4px 3px rgba(0,0,0,0.7);
+  -moz-box-shadow:inset 0 1px 0px #fff,inset 0 -1px 0px #fff,inset 1px 0px 0px #fff,inset -1px 0px 0px #fff,0 4px 3px rgba(0,0,0,0.7);
+  box-shadow:inset 0 1px 0px #fff,inset 0 -1px 0px #fff,inset 1px 0px 0px #fff,inset -1px 0px 0px #fff,0 4px 3px rgba(0,0,0,0.7);
+  -webkit-border-radius:0 0 3px 3px;
+  -moz-border-radius:0 0 3px 3px;
+  border-radius:0 0 3px 3px;
+}
+
+ul#piano li div.white.key.active {
+  -webkit-box-shadow:0 2px 2px rgba(0,0,0,0.4);
+  -moz-box-shadow:0 2px 2px rgba(0,0,0,0.4);
+  box-shadow:0 2px 2px rgba(0,0,0,0.4);
+  position:relative;
+  top:2px;
+  height:216px;
+}
+
+ul#piano li div.white.key.active:before {
+  content:"";
+  width:0px;
+  height:0px;
+  border-width:216px 5px 0px;
+  border-style:solid;
+  border-color:transparent transparent transparent rgba(0,0,0,0.1);
+  position:absolute;
+  left:0px;
+  top:0px;
+}
+
+ul#piano li div.white.key.active:after {
+  content:"";
+  width:0px;
+  height:0px;
+  border-width:216px 5px 0px;
+  border-style:solid;
+  border-color:transparent rgba(0,0,0,0.1) transparent transparent;
+  position:absolute;
+  right:0px;
+  top:0px;
+}
+
+ul#piano li div.white.key.next-note-to-play {
+  background: rgb(101, 230, 0);
+}
+
+/* Black Tuts */
+ul#piano li span.black.key {
+  position:absolute;
+  top:0px;
+  left:-20px;
+  width:33px;
+  height:120px;
+  background:#333;
+  background:-webkit-linear-gradient(-20deg,#333,#000,#333);
+  background:-moz-linear-gradient(-20deg,#333,#000,#333);
+  background:-ms-linear-gradient(-20deg,#333,#000,#333);
+  background:-o-linear-gradient(-20deg,#333,#000,#333);
+  background:linear-gradient(-20deg,#333,#000,#333);
+  z-index:10;
+  border-width:1px 2px 7px;
+  border-style:solid;
+  border-color:#666 #222 #111 #555;
+  -webkit-box-shadow:inset 0px -1px 2px rgba(255,255,255,0.4),0 2px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow:inset 0px -1px 2px rgba(255,255,255,0.4),0 2px 3px rgba(0,0,0,0.4);
+  box-shadow:inset 0px -1px 2px rgba(255,255,255,0.4),0 2px 3px rgba(0,0,0,0.4);
+  -webkit-border-radius:0 0 2px 2px;
+  -moz-border-radius:0 0 2px 2px;
+  border-radius:0 0 2px 2px;
+}
+
+ul#piano li span.black.key.active {
+  border-bottom-width:2px;
+  height:123px;
+  border-top-width: 2px;
+  -webkit-box-shadow:inset 0px -1px 1px rgba(255,255,255,0.4),0 1px 0px rgba(0,0,0,0.8),0 2px 2px rgba(0,0,0,0.4),0 -1px 0px #000;
+  -moz-box-shadow:inset 0px -1px 1px rgba(255,255,255,0.4),0 1px 0px rgba(0,0,0,0.8),0 2px 2px rgba(0,0,0,0.4),0 -1px 0px #000;
+  box-shadow:inset 0px -1px 1px rgba(255,255,255,0.4),0 1px 0px rgba(0,0,0,0.8),0 2px 2px rgba(0,0,0,0.4),0 -1px 0px #000;
+}
+
+ul#piano li span.black.key.next-note-to-play {
+  background: rgb(101, 230, 0);
+}
+
+.key { 
+  cursor: pointer;
+}
+
+ul#piano li li {
+  width:150px;
+  height:auto;
+  display:block;
+  float:none;
+  background:transparent;
+}
+
+ul#piano li:hover ul,ul#piano li:hover #search,ul#piano li:hover #contact {
+  visibility:visible;
+  opacity:1;
+  margin-top:15px;
+}
+
+.clear {
+  clear:both;
+}
+
+.hidden {
+  display: none;
+}
+
+.fully-transparent {
+  opacity: 0;
+}
+
+#progressbar {
+  width: 120px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  background: white;
+  text-align: center;
+  z-index: 100;
+}
+
+#music-score h1 {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+#music-score h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 10px;
+  font-weight: 300;
+  font-size: 12px;  
+}
+
+/* Animation */
+@-webkit-keyframes fadeIn {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+@keyframes fadeIn {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+.invisible-button {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Spinner */
+.spinner {
+  height:40px;
+  width:40px;
+  margin:0px auto;
+  position:absolute;
+  -webkit-animation: spinner-rotation .6s infinite linear;
+  -moz-animation: spinner-rotation .6s infinite linear;
+  -o-animation: spinner-rotation .6s infinite linear;
+  animation: spinner-rotation .6s infinite linear;
+  border-left:6px solid rgba(0,174,239,.15);
+  border-right:6px solid rgba(0,174,239,.15);
+  border-bottom:6px solid rgba(0,174,239,.15);
+  border-top:6px solid rgba(0,174,239,.8);
+  border-radius:100%;
+}
+@-webkit-keyframes spinner-rotation {
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(359deg);}
+}
+@-moz-keyframes spinner-rotation {
+  from {-moz-transform: rotate(0deg);}
+  to {-moz-transform: rotate(359deg);}
+}
+@-o-keyframes spinner-rotation {
+  from {-o-transform: rotate(0deg);}
+  to {-o-transform: rotate(359deg);}
+}
+@keyframes spinner-rotation {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(359deg);}
+}
